@@ -1,0 +1,44 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 300px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.todo span {
+  margin-right: 10px;
+}
+
+.todo button {
+  margin-left: 10px;
+  background-color: #dc3545;
+}
+
+.todo button:hover {
+  background-color: #c82333;
+}
